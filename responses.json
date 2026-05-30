@@ -1,0 +1,611 @@
+{
+  "college": {
+    "name": "Lendi Institute of Engineering and Technology",
+    "short_name": "LIET",
+    "founded": "2008",
+    "address": "Vizag-Viziangaram Road, NH-43, Denkada, Jonnada, Andhra Pradesh 535005",
+    "phone": "089222 41666",
+    "website": "lendi.edu.in",
+    "timings": {
+      "Monday": "9:00 AM - 4:15 PM",
+      "Tuesday": "9:00 AM - 4:15 PM",
+      "Wednesday": "9:00 AM - 4:15 PM",
+      "Thursday": "9:00 AM - 4:15 PM",
+      "Friday": "9:00 AM - 4:15 PM",
+      "Saturday": "9:00 AM - 4:15 PM",
+      "Sunday": "Closed"
+    }
+  },
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "howdy"
+      ],
+      "responses": [
+        "Hello! Welcome to Lendi Institute of Engineering and Technology. How can I help you?",
+        "Hi there! Welcome to LIET. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "college_info",
+      "patterns": [
+        "tell me about the college",
+        "what is LIET",
+        "about lendi",
+        "college information",
+        "college details"
+      ],
+      "responses": [
+        "Lendi Institute of Engineering and Technology (LIET) was founded in 2008. It is located at Vizag-Viziangaram Road, NH-43, Denkada, Jonnada, Andhra Pradesh 535005. The college is accredited by both NAAC and NBA. Contact: 089222 41666."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college",
+        "college address",
+        "location",
+        "how to reach",
+        "college location"
+      ],
+      "responses": [
+        "Lendi Institute of Engineering and Technology is located at: Vizag-Viziangaram Road, NH-43, Denkada, Jonnada, Andhra Pradesh 535005. Contact us at 089222 41666 for directions."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "college timings",
+        "working hours",
+        "what time does college open",
+        "when is college open",
+        "college schedule",
+        "college hours"
+      ],
+      "responses": [
+        "College working hours are 9:00 AM to 4:15 PM, Monday to Saturday. The college is closed on Sundays."
+      ]
+    },
+    {
+      "tag": "phone",
+      "patterns": [
+        "phone number",
+        "contact number",
+        "call the college",
+        "college phone",
+        "helpline"
+      ],
+      "responses": [
+        "You can reach Lendi Institute of Engineering and Technology at: 📞 089222 41666. You can also email us at the department-specific email addresses."
+      ]
+    },
+    {
+      "tag": "all_courses",
+      "patterns": [
+        "how many courses",
+        "how many branches",
+        "courses available",
+        "list of courses",
+        "available courses",
+        "all courses",
+        "courses offered",
+        "what are the courses",
+        "which courses",
+        "what programs",
+        "what courses are available",
+        "which branches are available",
+        "btech courses",
+        "ug courses",
+        "undergraduate programs",
+        "b.tech programs"
+      ],
+      "responses": [
+        "LIET offers the following programs:\n\n🎓 B.Tech (UG) Programs:\n1. EEE - Electrical & Electronics Engineering (Intake: 120)\n2. MECH - Mechanical Engineering (Intake: 120)\n3. ECE - Electronics & Communication Engineering (Intake: 240)\n4. CSE - Computer Science & Engineering (Intake: 360)\n5. CSS - Computer Science & Systems Engineering (Intake: 60)\n6. CIT - Computer Science & Information Technology (Intake: 60)\n7. CSM - Computer Science & Engineering (AI & Machine Learning) (Intake: 60)\nDuration: 4 Years (8 Semesters)\n\n🎓 M.Tech (PG) Programs:\n1. ES & VD - Embedded Systems and VLSI Design (Intake: 18)\n2. CSE - Computer Science & Engineering (Intake: 09)\n3. PS & CA - Power Systems & Control Automation (Intake: 18)\n4. MD - Machine Design (Intake: 18)\nDuration: 2 Years (4 Semesters)"
+      ]
+    },
+    {
+      "tag": "mtech_courses",
+      "patterns": [
+        "mtech courses",
+        "pg courses",
+        "postgraduate programs",
+        "m.tech programs",
+        "pg admission",
+        "is there mtech",
+        "any mtech",
+        "mtech in liet",
+        "mtech available",
+        "are there mtech",
+        "pg programs",
+        "pg available",
+        "postgraduate",
+        "master programs",
+        "master courses",
+        "is mtech available",
+        "does liet have mtech",
+        "mtech courses in liet"
+      ],
+      "responses": [
+        "Yes! M.Tech courses are available at LIET! 🎓\n\nM.Tech (PG) Programs:\n1. ES & VD - Embedded Systems and VLSI Design (Intake: 18)\n2. CSE - Computer Science & Engineering (Intake: 09)\n3. PS & CA - Power Systems & Control Automation (Intake: 18)\n4. MD - Machine Design (Intake: 18)\n\nDuration: 2 Years (4 Semesters)\nFee: ₹83,300 per year\n\nFor admissions contact: 089222 41666"
+      ]
+    },
+    {
+      "tag": "fees_btech",
+      "patterns": [
+        "btech fee",
+        "ug fee",
+        "b.tech fees",
+        "undergraduate fee structure",
+        "how much is btech fee",
+        "fee for btech",
+        "what is the fee",
+        "fee"
+      ],
+      "responses": [
+        "The fee for all B.Tech (UG) programs at LIET is ₹62,300 per year. This applies to EEE, MECH, ECE, CSE, CSS, CIT, and CSM branches."
+      ]
+    },
+    {
+      "tag": "fees_mtech",
+      "patterns": [
+        "mtech fee",
+        "pg fee",
+        "m.tech fees",
+        "postgraduate fee structure",
+        "how much is mtech fee",
+        "fee for mtech"
+      ],
+      "responses": [
+        "The fee for all M.Tech (PG) programs at LIET is ₹83,300 per year. This applies to ES&VD, CSE, PS&CA, and MD specializations."
+      ]
+    },
+    {
+      "tag": "accreditation",
+      "patterns": [
+        "accreditation",
+        "is the college accredited",
+        "naac",
+        "nba",
+        "college ranking",
+        "approved"
+      ],
+      "responses": [
+        "LIET is accredited by both NAAC and NBA for most of its B.Tech programs. The M.Tech programs are accredited by NAAC. The college has been providing quality education since 2008."
+      ]
+    },
+    {
+      "tag": "eee_info",
+      "patterns": [
+        "eee department",
+        "electrical engineering",
+        "electrical and electronics",
+        "eee branch",
+        "about eee"
+      ],
+      "responses": [
+        "EEE (Electrical & Electronics Engineering) at LIET:\n- Established: 2008-09\n- Intake: 120 students\n- Duration: 4 Years (8 Semesters)\n- Accreditation: NAAC & NBA\n- Fee: ₹62,300/year\n- HOD: Dr Subbaramaiah K\n- Email: hod.eee@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "mech_info",
+      "patterns": [
+        "mech department",
+        "mechanical engineering",
+        "mech branch",
+        "about mech"
+      ],
+      "responses": [
+        "MECH (Mechanical Engineering) at LIET:\n- Established: 2012-13\n- Intake: 120 students\n- Duration: 4 Years (8 Semesters)\n- Accreditation: NAAC & NBA\n- Fee: ₹62,300/year\n- HOD: Dr Satish Pujari\n- Email: hod.mech@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "ece_info",
+      "patterns": [
+        "ece department",
+        "electronics and communication",
+        "ece branch",
+        "about ece"
+      ],
+      "responses": [
+        "ECE (Electronics & Communication Engineering) at LIET:\n- Established: 2008-09\n- Intake: 240 students\n- Duration: 4 Years (8 Semesters)\n- Accreditation: NAAC & NBA\n- Fee: ₹62,300/year\n- HOD: Dr Naresh Kumar Darimireddy\n- Email: hod.ece@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "cse_info",
+      "patterns": [
+        "cse department",
+        "computer science engineering",
+        "cse branch",
+        "about cse"
+      ],
+      "responses": [
+        "CSE (Computer Science & Engineering) at LIET:\n- Established: 2008-09\n- Intake: 360 students\n- Duration: 4 Years (8 Semesters)\n- Accreditation: NAAC & NBA\n- Fee: ₹62,300/year\n- HOD: Dr A Rama Rao\n- Email: hod.cse@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "css_info",
+      "patterns": [
+        "css department",
+        "computer science systems engineering",
+        "css branch",
+        "about css"
+      ],
+      "responses": [
+        "CSS (Computer Science & Systems Engineering) at LIET:\n- Established: 2019-20\n- Intake: 60 students\n- Duration: 4 Years (8 Semesters)\n- Accreditation: NAAC\n- Fee: ₹62,300/year\n- HOD: Dr R Rajender\n- Email: hod.csse@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "cit_info",
+      "patterns": [
+        "cit department",
+        "computer science information technology",
+        "cit branch",
+        "about cit"
+      ],
+      "responses": [
+        "CIT (Computer Science & Information Technology) at LIET:\n- Established: 2020-21\n- Intake: 60 students\n- Duration: 4 Years (8 Semesters)\n- Accreditation: NAAC\n- Fee: ₹62,300/year\n- HOD: Jagannadha Varma P\n- Email: hod.csit@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "csm_info",
+      "patterns": [
+        "csm department",
+        "ai ml",
+        "artificial intelligence machine learning",
+        "csm branch",
+        "about csm",
+        "aiml"
+      ],
+      "responses": [
+        "CSM (Computer Science & Engineering - AI & Machine Learning) at LIET:\n- Established: 2023-24\n- Intake: 60 students\n- Duration: 4 Years (8 Semesters)\n- Accreditation: NAAC\n- Fee: ₹62,300/year\n- HOD: Dr V Prasad\n- Email: hod.aiml@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_eee",
+      "patterns": [
+        "hod of eee",
+        "who is hod of eee",
+        "eee hod",
+        "head of eee",
+        "electrical hod"
+      ],
+      "responses": [
+        "HOD of EEE Department:\n👨‍🏫 Dr Subbaramaiah K\n📧 Email: hod.eee@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_mech",
+      "patterns": [
+        "hod of mech",
+        "who is hod of mech",
+        "mech hod",
+        "head of mechanical",
+        "mechanical hod"
+      ],
+      "responses": [
+        "HOD of MECH Department:\n👨‍🏫 Dr Satish Pujari\n📧 Email: hod.mech@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_ece",
+      "patterns": [
+        "hod of ece",
+        "who is hod of ece",
+        "ece hod",
+        "head of ece",
+        "electronics hod"
+      ],
+      "responses": [
+        "HOD of ECE Department:\n👨‍🏫 Dr Naresh Kumar Darimireddy\n📧 Email: hod.ece@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_cse",
+      "patterns": [
+        "hod of cse",
+        "who is hod of cse",
+        "cse hod",
+        "head of cse",
+        "computer science hod"
+      ],
+      "responses": [
+        "HOD of CSE Department:\n👨‍🏫 Dr A Rama Rao\n📧 Email: hod.cse@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_css",
+      "patterns": [
+        "hod of css",
+        "who is hod of css",
+        "css hod",
+        "head of css"
+      ],
+      "responses": [
+        "HOD of CSS Department:\n👨‍🏫 Dr R Rajender\n📧 Email: hod.csse@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_csit",
+      "patterns": [
+        "hod of csit",
+        "who is hod of csit",
+        "csit hod",
+        "head of csit",
+        "hod of cit",
+        "who is hod of cit",
+        "cit hod"
+      ],
+      "responses": [
+        "HOD of CSIT Department:\n👨‍🏫 Jagannadha Varma P\n📧 Email: hod.csit@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_csm",
+      "patterns": [
+        "hod of csm",
+        "who is hod of csm",
+        "csm hod",
+        "head of csm",
+        "hod of aiml",
+        "aiml hod"
+      ],
+      "responses": [
+        "HOD of CSM (AI & ML) Department:\n👨‍🏫 Dr V Prasad\n📧 Email: hod.aiml@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_sh",
+      "patterns": [
+        "hod of s&h",
+        "hod of sh",
+        "s&h hod",
+        "head of sh",
+        "science humanities hod"
+      ],
+      "responses": [
+        "HOD of S&H Department:\n👩‍🏫 Dr P Durga Sailaja\n📧 Email: hod.sh@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "hod_all",
+      "patterns": [
+        "all hods",
+        "give all hods",
+        "hod names",
+        "all hod names",
+        "list of hods",
+        "all department hods",
+        "all heads",
+        "hod list"
+      ],
+      "responses": [
+        "All HODs at LIET:\n1. EEE: Dr Subbaramaiah K\n   📧 hod.eee@lendi.edu.in\n2. MECH: Dr Satish Pujari\n   📧 hod.mech@lendi.edu.in\n3. ECE: Dr Naresh Kumar Darimireddy\n   📧 hod.ece@lendi.edu.in\n4. CSE: Dr A Rama Rao\n   📧 hod.cse@lendi.edu.in\n5. CS&SE: Dr R Rajender\n   📧 hod.csse@lendi.edu.in\n6. CSIT: Jagannadha Varma P\n   📧 hod.csit@lendi.edu.in\n7. CSM (AI&ML): Dr V Prasad\n   📧 hod.aiml@lendi.edu.in\n8. S&H: Dr P Durga Sailaja\n   📧 hod.sh@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "principal",
+        "who is the principal",
+        "principal name",
+        "principal contact"
+      ],
+      "responses": [
+        "The Principal of LIET is Dr V.V. Rama Reddy.\n📞 Phone: 9490304747\n📧 Email: principal@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "vice_principal",
+      "patterns": [
+        "vice principal",
+        "who is vice principal",
+        "vice principal contact",
+        "vp academics",
+        "vp administration"
+      ],
+      "responses": [
+        "LIET has two Vice Principals:\n1. Vice Principal (Academics): Dr V Anji Reddy\n   📧 viceprincipal.acad@lendi.edu.in\n2. Vice Principal (Administration): Dr T. Haribabu\n   📧 viceprincipal.admin@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "placements",
+        "training and placement",
+        "placement officer",
+        "placement cell",
+        "job placements",
+        "dean placement"
+      ],
+      "responses": [
+        "LIET has a dedicated Training and Placement cell.\nDean, Training and Placement: Mr G. Prakash Babu\n📞 Phone: 9491198447\n📧 Email: dean.tnp@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "examinations",
+      "patterns": [
+        "exams",
+        "controller of examinations",
+        "exam schedule",
+        "examination cell",
+        "exam contact"
+      ],
+      "responses": [
+        "For examination related queries, contact:\nController of Examinations: Prof B V S Acharyulu\n📧 Email: ce@lendi.edu.in"
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "course duration",
+        "how many years",
+        "how long is the course",
+        "years of study",
+        "semesters"
+      ],
+      "responses": [
+        "B.Tech programs at LIET are 4 Years (8 Semesters) in duration. M.Tech programs are 2 Years (4 Semesters) in duration."
+      ]
+    },
+    {
+      "tag": "intake",
+      "patterns": [
+        "intake",
+        "total seats",
+        "how many seats",
+        "seats available",
+        "total strength"
+      ],
+      "responses": [
+        "B.Tech Intake at LIET:\n- EEE: 120 seats\n- MECH: 120 seats\n- ECE: 240 seats\n- CSE: 360 seats\n- CSS: 60 seats\n- CIT: 60 seats\n- CSM (AI&ML): 60 seats\n\nM.Tech Intake:\n- ES&VD: 18 seats\n- CSE: 09 seats\n- PS&CA: 18 seats\n- MD: 18 seats"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "thank you",
+        "thanks",
+        "that's all"
+      ],
+      "responses": [
+        "Thank you for contacting Lendi Institute of Engineering and Technology! Have a great day! 😊",
+        "Goodbye! Feel free to reach us anytime at 089222 41666. Have a wonderful day! 🎓"
+      ]
+    },
+    {
+      "tag": "cutoff_general",
+      "patterns": [
+        "cutoff rank",
+        "cutoff",
+        "what is the cutoff",
+        "rank required",
+        "what rank",
+        "minimum rank",
+        "cutoff ranks",
+        "cutoff for liet",
+        "liet cutoff"
+      ],
+      "responses": [
+        "LIET Cutoff Ranks (Approximate):\n\n🟢 OC (General) Category:\n• CSE → 14,700 – 30,200\n• CSE (AI & ML) → 20,000 – 23,000\n• CSE (IT / Systems) → 28,000 – 33,000\n• ECE → 23,000 – 29,000\n\n🔵 BC Category:\n• BC-D → 23,000 – 38,000\n• BC-B → 29,000 – 62,000\n• BC-A → 44,000+\n\n🔴 SC / ST Category:\n• SC → up to 1,70,000\n• ST → up to 1,30,000 – 1,70,000\n\n📌 Quick Guide:\n• Rank < 20K → Good chance for CSE / AI & ML\n• Rank 20K–30K → CSE / IT / ECE possible\n• BC/SC/ST students get seats at higher ranks than OC"
+      ]
+    },
+    {
+      "tag": "cutoff_cse",
+      "patterns": [
+        "cutoff for cse",
+        "cse cutoff",
+        "cse rank",
+        "cutoff rank for cse",
+        "rank for cse",
+        "what rank for cse"
+      ],
+      "responses": [
+        "CSE Cutoff Rank at LIET:\n\n🟢 OC (General): 14,700 – 30,200\n🔵 BC-D: 23,000 – 38,000\n🔵 BC-B: 29,000 – 62,000\n🔵 BC-A: 44,000+\n🔴 SC: up to 1,70,000\n🔴 ST: up to 1,70,000\n\n✅ Rank below 20,000 → Very good chance for CSE!"
+      ]
+    },
+    {
+      "tag": "cutoff_csm",
+      "patterns": [
+        "cutoff for csm",
+        "csm cutoff",
+        "aiml cutoff",
+        "cutoff for aiml",
+        "ai ml cutoff",
+        "cutoff rank for csm",
+        "rank for aiml",
+        "cutoff for ai"
+      ],
+      "responses": [
+        "CSM (AI & ML) Cutoff Rank at LIET:\n\n🟢 OC (General): 20,000 – 23,000\n🔵 BC-D: 23,000 – 38,000\n🔵 BC-B: 29,000 – 62,000\n🔵 BC-A: 44,000+\n🔴 SC: up to 1,70,000\n🔴 ST: up to 1,70,000\n\n✅ Rank below 23,000 → Good chance for CSM (AI & ML)!"
+      ]
+    },
+    {
+      "tag": "cutoff_cit",
+      "patterns": [
+        "cutoff for cit",
+        "cit cutoff",
+        "cutoff for it",
+        "it cutoff",
+        "cutoff rank for cit",
+        "rank for cit",
+        "cutoff for css",
+        "css cutoff"
+      ],
+      "responses": [
+        "CSE (IT / Systems) Cutoff Rank at LIET:\n\n🟢 OC (General): 28,000 – 33,000\n🔵 BC-D: 23,000 – 38,000\n🔵 BC-B: 29,000 – 62,000\n🔵 BC-A: 44,000+\n🔴 SC: up to 1,70,000\n🔴 ST: up to 1,70,000\n\n✅ Rank between 28K–33K → Good chance for CIT / CSS!"
+      ]
+    },
+    {
+      "tag": "cutoff_ece",
+      "patterns": [
+        "cutoff for ece",
+        "ece cutoff",
+        "cutoff rank for ece",
+        "rank for ece",
+        "what rank for ece",
+        "electronics cutoff"
+      ],
+      "responses": [
+        "ECE Cutoff Rank at LIET:\n\n🟢 OC (General): 23,000 – 29,000\n🔵 BC-D: 23,000 – 38,000\n🔵 BC-B: 29,000 – 62,000\n🔵 BC-A: 44,000+\n🔴 SC: up to 1,70,000\n🔴 ST: up to 1,70,000\n\n✅ Rank between 23K–29K → Good chance for ECE!"
+      ]
+    },
+    {
+      "tag": "cutoff_bc",
+      "patterns": [
+        "bc cutoff",
+        "cutoff for bc",
+        "bc rank",
+        "bc-a cutoff",
+        "bc-b cutoff",
+        "bc-d cutoff",
+        "backward class cutoff",
+        "bc category cutoff"
+      ],
+      "responses": [
+        "BC Category Cutoff Ranks at LIET:\n\n🔵 BC-D → 23,000 – 38,000\n🔵 BC-B → 29,000 – 62,000\n🔵 BC-A → 44,000+\n\n📌 BC students get seats at higher ranks compared to OC (General) category.\n\nFor more details contact: 089222 41666"
+      ]
+    },
+    {
+      "tag": "cutoff_sc_st",
+      "patterns": [
+        "sc cutoff",
+        "st cutoff",
+        "sc st cutoff",
+        "cutoff for sc",
+        "cutoff for st",
+        "scheduled caste cutoff",
+        "scheduled tribe cutoff",
+        "sc rank",
+        "st rank"
+      ],
+      "responses": [
+        "SC / ST Category Cutoff Ranks at LIET:\n\n🔴 SC → up to 1,70,000 rank\n🔴 ST → up to 1,30,000 – 1,70,000 rank\n\n📌 SC/ST students get admission at much higher ranks compared to OC category.\n\nFor more details contact: 089222 41666"
+      ]
+    },
+    {
+      "tag": "cutoff_my_rank",
+      "patterns": [
+        "will i get seat",
+        "can i get admission",
+        "is my rank enough",
+        "my rank is",
+        "i have rank",
+        "chances of admission",
+        "will i get cse",
+        "will i get ece"
+      ],
+      "responses": [
+        "Here's a quick guide based on your rank:\n\n✅ Rank < 20,000 → Very good chance for CSE / AI & ML (OC)\n✅ Rank 20,000–23,000 → Good for CSE (AI & ML) / ECE\n✅ Rank 23,000–29,000 → ECE / CSE possible\n✅ Rank 28,000–33,000 → CIT / CSS / ECE possible\n\n🔵 BC students → Add ~10,000–30,000 to above ranges\n🔴 SC/ST students → Seats available up to 1,70,000 rank\n\n📞 For exact details contact: 089222 41666"
+      ]
+    }
+  ]
+}
